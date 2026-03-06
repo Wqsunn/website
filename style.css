@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding-top: 75px;
+    font-size: 16px;
+}
+
+.personal-form {
+    height: 500px;
+    width: 450px;
+    background-color: #ddd;
+    margin-left: calc((100% - 400px)/2);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text]{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    color: #fff;
+    background-color: #5cb85c;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #449d44;
+}
+
+input[type=text]:focus {
+    border-color: #66afe9;
+}
+select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
